@@ -124,6 +124,13 @@ This new DataFrame should show school performance based on the "School Type".
 
 ## Written Report
 
+* As a whole, schools with higher budgets, did not yield better test results. By contrast, schools with higher spending 645-675(USD) per student actually underperformed compared to schools with smaller budgets (585 per student).
+
+* As a whole, smaller and medium sized schools dramatically out-performed large sized schools on passing math performances (89-91% passing vs 67%).
+
+* As a whole, charter schools out-performed the public district schools across all metrics. However, more analysis will be required to glean if the effect is due to school practices or the fact that charter schools tend to serve smaller student populations per school. 
+
+* Some Limitations in this data set is that it dose not provide student to teacher ratio or average student socio-economic level. This additional information could prove useful to achive a better insight on students success rate in education
 
 
 
