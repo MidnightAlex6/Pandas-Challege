@@ -6,7 +6,7 @@
 
 In this assignment, I created and manipulate Pandas DataFrames to analyze school and standardized test data.
 
-# Backgroud
+## Backgroud
 
 I am anew Chief Data Scientist for a city's school district. I'm helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
 
@@ -14,7 +14,7 @@ My first first task, I have been asked to analyze the district-wide standardized
 
 Using Pandas and Jupyter Notebook, I created a report that includes the following data. My report also includes a written description of at least two observable trends based on the data.
 
-# District Summary
+## District Summary
 
 I Performed the necessary calculations and then created a high-level snapshot of the district's key metrics in a DataFrame.
 This included:
@@ -35,7 +35,7 @@ This included:
 
 •	% overall passing (the percentage of students who passed math AND reading)
 
-# School Summary
+## School Summary
 
 I Performed the necessary calculations and then created a DataFrame that summarizes key metrics about each school.
 
@@ -63,37 +63,34 @@ Include the following:
 
 •	% overall passing (the percentage of students who passed math AND reading)
 
-# Highest-Performing Schools (by % Overall Passing)
+## Highest-Performing Schools (by % Overall Passing)
 
 I Sorted the schools by % Overall Passing in descending order and display the top 5 rows.
 I saved the results in a DataFrame called "top_schools".
 
-# Lowest-Performing Schools (by % Overall Passing)
+## Lowest-Performing Schools (by % Overall Passing)
 
 I sorted the schools by % Overall Passing in ascending order and display the top 5 rows.
 I saved the results in a DataFrame called "bottom_schools".
 
-# Math Scores by Grade
+## Math Scores by Grade
 
 I performed the necessary calculations to create a DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
-#Reading Scores by Grade
+## Reading Scores by Grade
 
 Created a DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
-# Scores by School Spending
+## Scores by School Spending
 
 Created a table that breaks down school performance based on average spending ranges (per student).
 Used the code provided below to create four bins with reasonable cutoff values to group school spending.
 
-![image](https://user-images.githubusercontent.com/126301312/228123960-1b3ac576-248a-4ee6-bf7e-433143d355d8.png)
 
 
 Used pd.cut to categorize spending based on the bins.
 Used the following code to then calculate mean scores per spending range.
 
-
-![image](https://user-images.githubusercontent.com/126301312/228124176-02868913-aaaa-4ae3-9170-e74f3815dcd2.png)
 
 
 
@@ -110,23 +107,22 @@ And includeed the following metrics in the table:
 
 •	% overall passing (the percentage of students who passed math AND reading)
 
-# Scores by School Size
+## Scores by School Size
 
 I used the following code to bin the per_school_summary.
 
 
-![image](https://user-images.githubusercontent.com/126301312/228124734-bc44d12a-690d-4d6a-aa20-ea35a7c4b3d3.png)
 
 
 I use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
 And createed a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
-# Scores by School Type
+## Scores by School Type
 
 I used the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.
 This new DataFrame should show school performance based on the "School Type".
 
-# Written Report
+## Written Report
 
 
 
